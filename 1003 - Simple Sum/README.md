@@ -62,3 +62,9 @@ Leitura de dois valores reais e impressão da soma com exatamente 1 casa decimal
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Java vs C++
+
+O ponto que mais me travou aqui foi o Locale no Java. Quando o Scanner le um double sem definir Locale.US, em algumas maquinas ele espera virgula como separador decimal — e ai a leitura quebra. Em C++ o cin nao tem esse problema, le ponto diretamente sem configuracao extra.
+
+No resto sao bem parecidos: os dois usam %.1f para uma casa decimal na saida.
