@@ -65,3 +65,9 @@ int main(){
 O problema pede apenas a soma de dois inteiros com saída formatada. A chave aqui é prestar atenção no formato de saída: `X = valor` (com espaços ao redor do `=`).
 
 Em Java uso `Scanner` para leitura e `println` para saída simples. Em C++ uso `cin` e `cout`. Nenhum dos dois precisa de tratamento especial de tipo pois os valores são inteiros pequenos — não há risco de overflow com `int`.
+
+## Java vs C++
+
+A leitura em C++ com cin e mais direta, sem precisar criar objeto nenhum. Em Java o Scanner exige um import e a criacao da instancia antes de usar. Para problemas simples assim a diferenca nao muda muita coisa, mas em problemas com muita leitura de dados o Scanner do Java pode ser lento — nesse caso vale usar BufferedReader.
+
+A saida tambem tem uma diferenca: em C++ uso endl, em Java uso println. Os dois quebram a linha, mas endl ainda descarrega o buffer, o que em competicoes com muito output pode ser um problema. Para esse exercicio tanto faz.
