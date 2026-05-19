@@ -66,3 +66,9 @@ int main(){
 A fórmula da área do círculo é `A = π × R²`. O ponto de atenção aqui é o valor de π: em Java uso `Math.PI`, que já tem precisão suficiente. Em C++ uso `acos(-1.0)`, que é um truque clássico para obter π sem depender de constantes da biblioteca.
 
 A saída exige exatamente 4 casas decimais — em Java uso `printf("A=%.4f")` e em C++ uso `printf("A=%.4f\n")`. Repare que não há espaço entre `A=` e o valor, detalhe que causa erro se ignorado.
+
+## Java vs C++
+
+A diferenca principal aqui e como cada linguagem acessa o valor de pi. Java tem Math.PI, que ja vem pronto na biblioteca padrao. Em C++ o jeito classico em competicoes e acos(-1.0) — isso funciona porque o arco cosseno de -1 e exatamente pi, com a precisao maxima do tipo double.
+
+Para a saida formatada os dois usam printf. Em Java o printf fica como System.out.printf e precisa de %n no lugar de \n para ser portavel entre sistemas operacionais. Em C++ o printf normal funciona sem problema.
