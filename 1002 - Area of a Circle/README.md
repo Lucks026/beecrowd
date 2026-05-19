@@ -60,3 +60,9 @@ int main(){
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Lógica
+
+A fórmula da área do círculo é `A = π × R²`. O ponto de atenção aqui é o valor de π: em Java uso `Math.PI`, que já tem precisão suficiente. Em C++ uso `acos(-1.0)`, que é um truque clássico para obter π sem depender de constantes da biblioteca.
+
+A saída exige exatamente 4 casas decimais — em Java uso `printf("A=%.4f")` e em C++ uso `printf("A=%.4f\n")`. Repare que não há espaço entre `A=` e o valor, detalhe que causa erro se ignorado.
