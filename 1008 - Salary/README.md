@@ -68,3 +68,9 @@ Multiplicação direta de horas pelo valor/hora. O detalhe importante é o prefi
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Java vs C++
+
+Em C++ misturei cout e printf na mesma solucao: usei cout para o NUMBER (inteiro simples) e printf para o SALARY (precisa de %.2f). Podia ter usado so printf para os dois, mas preferi deixar assim para mostrar que da pra misturar quando faz sentido.
+
+Em Java usei println para o NUMBER e printf para o SALARY. O Locale.US no Scanner e necessario porque o valor por hora e um double com ponto decimal.
