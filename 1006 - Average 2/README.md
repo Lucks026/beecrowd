@@ -65,3 +65,9 @@ Média ponderada: cada nota tem um peso diferente (A=2, B=3, C=5). A soma dos pe
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Java vs C++
+
+Nenhuma diferenca significativa entre as duas versoes aqui. A formula e a mesma, a saida e a mesma. O Locale.US no Java continua sendo necessario para leitura de doubles.
+
+Um detalhe: multiplicar por 2, 3 e 5 antes de dividir por 10 e mais preciso do que dividir cada nota pelo peso separado e somar depois. Menos operacoes de ponto flutuante, menos chance de erro de arredondamento acumulado.
