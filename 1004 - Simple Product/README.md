@@ -59,3 +59,9 @@ int main(){
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Lógica
+
+A operação é simples: multiplicar dois inteiros e imprimir o resultado com o prefixo `PROD = `. O cuidado aqui é com o tipo de dado: o enunciado informa que A e B podem ser grandes, então uso `long long` em C++ e `long` em Java para evitar overflow em casos extremos.
+
+A leitura é feita linha a linha (um número por linha), então tanto `cin >> a >> b` em C++ quanto `nextLong()` duas vezes em Java funcionam corretamente.
