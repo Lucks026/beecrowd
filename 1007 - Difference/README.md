@@ -65,3 +65,9 @@ Dois produtos são calculados separadamente — (A×B) e (C×D) — e depois sub
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Java vs C++
+
+Ambas as versoes ficaram simples. Em C++ misturei cout e printf na mesma solucao em outros problemas, mas aqui usei so cout porque a saida nao precisa de formatacao decimal — e inteiro direto.
+
+Em Java usei println com concatenacao de string, que funciona bem para inteiros. Se o resultado pudesse ser muito grande valeria trocar int por long, mas para os valores desse problema nao tem risco.
