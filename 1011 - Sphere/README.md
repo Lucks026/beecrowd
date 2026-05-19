@@ -61,3 +61,9 @@ A fórmula do volume da esfera envolve três pontos críticos: usar `4.0/3.0` (p
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Java vs C++
+
+A diferenca principal continua sendo o pi: Math.PI em Java, acos(-1.0) em C++. Para elevar ao cubo usei r * r * r nos dois — nao tem pow() aqui porque multiplicacao direta e mais rapida e nao tem risco de erro de ponto flutuante que o pow pode ter em alguns compiladores.
+
+A saida usa %.4f para quatro casas decimais. Vale checar se o juiz aceita %n ou precisa de \n — no Beecrowd os dois costumam funcionar.
