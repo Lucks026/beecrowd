@@ -66,3 +66,9 @@ O nome é lido mas não é impresso — serve apenas para identificar o funcion�
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Java vs C++
+
+O nome do funcionario e lido com cin >> name em C++ e sc.next() em Java — os dois param no primeiro espaco, entao funcionam quando o nome nao tem espaco. Se tivesse, precisaria de getline em C++ ou nextLine em Java.
+
+O calculo do bonus e identico nos dois: salary + sales * 0.15. A saida usa %.2f para duas casas decimais com o prefixo R$.
