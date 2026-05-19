@@ -69,3 +69,9 @@ Multiplicação simples de quantidade pelo valor unitário. O principal desafio 
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Java vs C++
+
+Esse problema tem a saida mais longa ate agora — dois campos na primeira linha mais o total na segunda. Nos dois usei printf para controlar o formato com precisao. Em Java o %n no final garante quebra de linha correta em qualquer sistema. Em C++ o \n e suficiente.
+
+O calculo e direto: quantidade vezes preco unitario. Guardo o total em uma variavel separada para nao repetir a multiplicacao na segunda linha.
