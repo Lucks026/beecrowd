@@ -66,3 +66,9 @@ Soma dos 4 valores dividida por 4.0 (ponto flutuante). Dividir por `4` inteiro e
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Java vs C++
+
+Os dois ficaram bem parecidos nesse problema. A unica diferenca real e o Locale.US no Scanner do Java, necessario para leitura de decimais com ponto. Em C++ o cin resolve sem configuracao.
+
+Vale notar que dividir por 4 (inteiro) em vez de 4.0 nao causaria problema aqui porque as variaveis ja sao double — a divisao seria promovida automaticamente. Mas prefiro deixar 4.0 explicito para nao depender de comportamento implicito da linguagem.
