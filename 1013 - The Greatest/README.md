@@ -14,3 +14,7 @@ Le tres inteiros e imprime o maior deles no formato "X eh o maior".
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+Encontrar o maior dos tres sem if aninhado. Tanto em C++ quanto em Java da pra resolver em uma linha usando as funcoes de maximo da biblioteca padrao.
