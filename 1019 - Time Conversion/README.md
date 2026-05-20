@@ -18,3 +18,7 @@ Le um valor em segundos e converte para horas, minutos e segundos.
 ## Logica
 
 Horas: t / 3600. Minutos: (t % 3600) / 60. Segundos: t % 60. A ordem importa, cada calculo usa o resto do anterior.
+
+## Java vs C++
+
+Identicos em logica. Em C++ usei printf, em Java concatenei string direto no println.
