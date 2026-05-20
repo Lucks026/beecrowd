@@ -14,3 +14,11 @@ Le tres inteiros e os imprime em ordem crescente.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+Coloco os tres valores num array e uso a funcao de ordenacao padrao. Mais simples do que comparacoes manuais.
+
+## Java vs C++
+
+C++ usa sort() com ponteiros. Java usa Arrays.sort(). Os dois ordenam in-place em ordem crescente.
