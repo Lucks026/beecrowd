@@ -14,3 +14,11 @@ Le um salario e aplica o reajuste conforme a faixa salarial (4% a 15%).
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+If/else percorre as faixas de baixo pra cima. O calculo usa reajuste/100.0 com .0 para forcar divisao real, nao inteira.
+
+## Java vs C++
+
+Em C++ usei cout com fixed e setprecision(2). Em Java usei printf. O resultado e o mesmo.
