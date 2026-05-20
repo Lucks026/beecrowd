@@ -14,3 +14,11 @@ Le inicio e fim de um jogo (horas inteiras) e calcula a duracao. Pode passar da 
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+Se fim >= inicio, duracao e fim - inicio. Se nao, o jogo passou da meia-noite: (24 - inicio) + fim.
+
+## Java vs C++
+
+Identicos. Entrada inteira, saida com texto fixo.
