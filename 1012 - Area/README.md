@@ -14,3 +14,7 @@ Le tres valores A, B e C e calcula tres areas geometricas com eles. A e C sao us
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+Os tres valores servem a propositos diferentes: A e C aparecem em dois calculos, B so aparece no circulo. Triangulo: (A * C) / 2. Circulo: pi * B^2. Trapezio: ((A + B) * C) / 2.
