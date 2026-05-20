@@ -14,3 +14,11 @@ Le quatro notas, calcula a media e decide: aprovado >= 7, recuperacao >= 5, repr
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+If/else encadeado começa pelo maior limite. Se media == 5 cai no recuperacao, nao no reprovado.
+
+## Java vs C++
+
+Identicos. Printf para a media formatada, println/cout para o resultado textual.
