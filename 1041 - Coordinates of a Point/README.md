@@ -14,3 +14,11 @@ Le X e Y e determina origem, eixos ou quadrante (Q1-Q4).
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+Origem vem primeiro (caso mais especifico). Depois eixos. Se passou pelos dois, e algum quadrante.
+
+## Java vs C++
+
+Identicos. Entrada inteira, sem Locale.
