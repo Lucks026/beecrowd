@@ -14,3 +14,11 @@ Le um numero e imprime em qual intervalo ele esta.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+Colchete inclui o valor, parentese exclui. [0,25] usa >= 0 && <= 25. (25,50] usa > 25 && <= 50.
+
+## Java vs C++
+
+Identicos. Locale.US no Java para leitura do double.
