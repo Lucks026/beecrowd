@@ -14,3 +14,11 @@ Le um inteiro de 1 a 12 e imprime o nome do mes correspondente em ingles.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+
+## Logica
+
+Guardei os nomes dos meses num array e usei o inteiro como indice direto. O indice 0 fica vazio pra alinhar com 1=January.
+
+## Java vs C++
+
+Em ambas as linguagens funciona igual com array de strings. A unica diferenca eh a declaracao (String[] no Java, string[] no C++).
