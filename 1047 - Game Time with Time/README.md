@@ -6,7 +6,7 @@
 
 ## Descricao
 
-Igual ao 1046, mas com horas e minutos.
+Igual ao 1046, mas com horas e minutos. Se horarios iguais, durou 24h e 0min.
 
 ## Resultado
 
@@ -14,11 +14,12 @@ Igual ao 1046, mas com horas e minutos.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Converto tudo para minutos: hora * 60 + minuto. Mesma logica do 1046 mas o ciclo e 1440 minutos. Na saida divido por 60 para horas e uso % para os minutos restantes.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos em logica.
+Identicos nos tres em logica. Python usa // pra divisao inteira e % pro resto.
