@@ -1,63 +1,12 @@
 # 1007 - Difference
 
-**Plataforma:** Beecrowd  
-**Dificuldade:** Iniciante  
+**Plataforma:** Beecrowd
+**Dificuldade:** Iniciante
 **Link:** https://judge.beecrowd.com/pt/problems/view/1007
 
-## Descrição
+## Descricao
 
-Leia 4 inteiros A, B, C e D. Calcule e imprima a diferença entre o produto de A e B e o produto de C e D: `DIFF = (A×B) - (C×D)`.
-
-## Entrada
-
-```
-5
-6
-7
-8
-```
-
-## Saída
-
-```
-DIFF = -26
-```
-
-## Soluções
-
-### Java
-
-```java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
-        int d = sc.nextInt();
-        System.out.println("DIFF = " + ((a * b) - (c * d)));
-    }
-}
-```
-
-### C++
-
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-    int a, b, c, d;
-    cin >> a >> b >> c >> d;
-    cout << "DIFF = " << (a * b) - (c * d) << endl;
-}
-```
-
-## Lógica
-
-Dois produtos são calculados separadamente — (A×B) e (C×D) — e depois subtraídos. O resultado pode ser negativo, o que é totalmente válido. Usando `int` padrão pois os valores do enunciado não excedem o limite de 32 bits.
+Le 4 inteiros A, B, C e D e imprime a diferenca entre os produtos A*B e C*D.
 
 ## Resultado
 
@@ -66,8 +15,10 @@ Dois produtos são calculados separadamente — (A×B) e (C×D) — e depois sub
 | C++       | Accepted |
 | Java      | Accepted |
 
+## Logica
+
+Dois produtos separados, depois subtrai. O resultado pode ser negativo e isso eh valido.
+
 ## Java vs C++
 
-Ambas as versoes ficaram simples. Em C++ misturei cout e printf na mesma solucao em outros problemas, mas aqui usei so cout porque a saida nao precisa de formatacao decimal — e inteiro direto.
-
-Em Java usei println com concatenacao de string, que funciona bem para inteiros. Se o resultado pudesse ser muito grande valeria trocar int por long, mas para os valores desse problema nao tem risco.
+Nos dois usam int normal. Saida com concatenacao simples sem formatacao decimal.

@@ -1,57 +1,12 @@
 # 1001 - Extremely Basic
 
-**Plataforma:** Beecrowd  
-**Dificuldade:** Iniciante  
+**Plataforma:** Beecrowd
+**Dificuldade:** Iniciante
 **Link:** https://judge.beecrowd.com/pt/problems/view/1001
 
-## Descrição
+## Descricao
 
-Leia dois inteiros A e B e imprima a soma deles no formato `X = (A + B)`.
-
-## Entrada
-
-Dois inteiros A e B em linhas separadas.
-
-```
-10
-9
-```
-
-## Saída
-
-```
-X = 19
-```
-
-## Soluções
-
-### Java
-
-```java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        System.out.println("X = " + (a + b));
-    }
-}
-```
-
-### C++
-
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-    int a, b;
-    cin >> a >> b;
-    cout << "X = " << a + b << endl;
-}
-```
+Le dois inteiros A e B e imprime a soma no formato "X = valor".
 
 ## Resultado
 
@@ -60,14 +15,10 @@ int main(){
 | C++       | Accepted |
 | Java      | Accepted |
 
-## Lógica
+## Logica
 
-O problema pede apenas a soma de dois inteiros com saída formatada. A chave aqui é prestar atenção no formato de saída: `X = valor` (com espaços ao redor do `=`).
-
-Em Java uso `Scanner` para leitura e `println` para saída simples. Em C++ uso `cin` e `cout`. Nenhum dos dois precisa de tratamento especial de tipo pois os valores são inteiros pequenos — não há risco de overflow com `int`.
+Soma simples de dois inteiros. O formato de saida exige "X = " com espacos ao redor do igual.
 
 ## Java vs C++
 
-A leitura em C++ com cin e mais direta, sem precisar criar objeto nenhum. Em Java o Scanner exige um import e a criacao da instancia antes de usar. Para problemas simples assim a diferenca nao muda muita coisa, mas em problemas com muita leitura de dados o Scanner do Java pode ser lento — nesse caso vale usar BufferedReader.
-
-A saida tambem tem uma diferenca: em C++ uso endl, em Java uso println. Os dois quebram a linha, mas endl ainda descarrega o buffer, o que em competicoes com muito output pode ser um problema. Para esse exercicio tanto faz.
+Leitura com cin em C++ e mais direta que Scanner em Java. Na saida os dois usam concatenacao simples.

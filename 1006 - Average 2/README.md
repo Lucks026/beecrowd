@@ -1,63 +1,12 @@
 # 1006 - Average 2
 
-**Plataforma:** Beecrowd  
-**Dificuldade:** Iniciante  
+**Plataforma:** Beecrowd
+**Dificuldade:** Iniciante
 **Link:** https://judge.beecrowd.com/pt/problems/view/1006
 
-## Descrição
+## Descricao
 
-Leia 3 valores reais A, B e C e calcule a média ponderada: `(A×2 + B×3 + C×5) / 10`.
-
-## Entrada
-
-```
-2.0
-3.0
-5.0
-```
-
-## Saída
-
-```
-MEDIA = 4.0
-```
-
-## Soluções
-
-### Java
-
-```java
-import java.util.Scanner;
-import java.util.Locale;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
-        double c = sc.nextDouble();
-        double media = (a * 2 + b * 3 + c * 5) / 10.0;
-        System.out.printf("MEDIA = %.1f%n", media);
-    }
-}
-```
-
-### C++
-
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-    double a, b, c;
-    cin >> a >> b >> c;
-    printf("MEDIA = %.1f\n", (a * 2 + b * 3 + c * 5) / 10.0);
-}
-```
-
-## Lógica
-
-Média ponderada: cada nota tem um peso diferente (A=2, B=3, C=5). A soma dos pesos é 10, então divide-se por 10.0. Diferente da média simples do 1005, aqui os valores têm importâncias distintas — conceito muito usado em sistemas de avaliação e machine learning.
+Le 3 valores e calcula a media ponderada com pesos 2, 3 e 5. Saida com 1 casa decimal.
 
 ## Resultado
 
@@ -66,8 +15,10 @@ Média ponderada: cada nota tem um peso diferente (A=2, B=3, C=5). A soma dos pe
 | C++       | Accepted |
 | Java      | Accepted |
 
+## Logica
+
+(A*2 + B*3 + C*5) / 10.0. A soma dos pesos eh 10, entao divide por 10.
+
 ## Java vs C++
 
-Nenhuma diferenca significativa entre as duas versoes aqui. A formula e a mesma, a saida e a mesma. O Locale.US no Java continua sendo necessario para leitura de doubles.
-
-Um detalhe: multiplicar por 2, 3 e 5 antes de dividir por 10 e mais preciso do que dividir cada nota pelo peso separado e somar depois. Menos operacoes de ponto flutuante, menos chance de erro de arredondamento acumulado.
+Identicos. Locale.US no Java pra leitura de doubles.

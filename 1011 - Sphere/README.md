@@ -1,59 +1,12 @@
 # 1011 - Sphere
 
-**Plataforma:** Beecrowd  
-**Dificuldade:** Iniciante  
+**Plataforma:** Beecrowd
+**Dificuldade:** Iniciante
 **Link:** https://judge.beecrowd.com/pt/problems/view/1011
 
-## Descrição
+## Descricao
 
-Leia o raio de uma esfera e calcule o volume usando a fórmula `V = (4/3) × π × R³`.
-
-## Entrada
-
-```
-3.00
-```
-
-## Saída
-
-```
-VOLUME = 113.0973
-```
-
-## Soluções
-
-### Java
-
-```java
-import java.util.Scanner;
-import java.util.Locale;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-        double r = sc.nextDouble();
-        double volume = (4.0 / 3.0) * Math.PI * r * r * r;
-        System.out.printf("VOLUME = %.4f%n", volume);
-    }
-}
-```
-
-### C++
-
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-    double r;
-    cin >> r;
-    printf("VOLUME = %.4f\n", (4.0 / 3.0) * acos(-1.0) * r * r * r);
-}
-```
-
-## Lógica
-
-A fórmula do volume da esfera envolve três pontos críticos: usar `4.0/3.0` (ponto flutuante, não inteiro), elevar R à terceira potência (`r * r * r`), e usar um valor preciso de π. Em Java, `Math.PI` resolve isso. Em C++, o clássico `acos(-1.0)` retorna π com precisão máxima do tipo `double`. Saída com 4 casas decimais.
+Le o raio e calcula o volume da esfera: V = (4/3) * pi * R^3. Saida com 4 casas decimais.
 
 ## Resultado
 
@@ -62,8 +15,10 @@ A fórmula do volume da esfera envolve três pontos críticos: usar `4.0/3.0` (p
 | C++       | Accepted |
 | Java      | Accepted |
 
+## Logica
+
+Usar 4.0/3.0 pra divisao real, nao inteira. r * r * r em vez de pow() pra mais precisao. Saida com %.4f.
+
 ## Java vs C++
 
-A diferenca principal continua sendo o pi: Math.PI em Java, acos(-1.0) em C++. Para elevar ao cubo usei r * r * r nos dois — nao tem pow() aqui porque multiplicacao direta e mais rapida e nao tem risco de erro de ponto flutuante que o pow pode ter em alguns compiladores.
-
-A saida usa %.4f para quatro casas decimais. Vale checar se o juiz aceita %n ou precisa de \n — no Beecrowd os dois costumam funcionar.
+Pi: Math.PI no Java, acos(-1.0) no C++. No resto sao identicos.

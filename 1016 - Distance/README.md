@@ -8,6 +8,13 @@
 
 Le velocidade inicial (km/h), aceleracao (m/s^2) e tempo (s). Calcula a distancia com d = v*t + (a*t^2)/2.
 
+## Resultado
+
+| Linguagem | Status   |
+|-----------|----------|
+| C++       | Accepted |
+| Java      | Accepted |
+
 ## Logica
 
 A velocidade vem em km/h mas a formula usa m/s. Converter antes: v / 3.6. Resultado em metros com 3 casas decimais.
@@ -15,10 +22,3 @@ A velocidade vem em km/h mas a formula usa m/s. Converter antes: v / 3.6. Result
 ## Java vs C++
 
 Sem diferenca. Nos dois converto a velocidade na mesma linha da leitura.
-
-## Resultado
-
-| Linguagem | Status   |
-|-----------|----------|
-| C++       | Accepted |
-| Java      | Accepted |
