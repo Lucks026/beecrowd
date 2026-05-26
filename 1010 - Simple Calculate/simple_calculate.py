@@ -1,0 +1,5 @@
+line1 = input().split()
+c1, q1, p1 = int(line1[0]), int(line1[1]), float(line1[2])
+line2 = input().split()
+c2, q2, p2 = int(line2[0]), int(line2[1]), float(line2[2])
+print("VALOR A PAGAR: R$ {:.2f}".format(q1 * p1 + q2 * p2))
