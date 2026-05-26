@@ -14,11 +14,12 @@ Le 4 inteiros A, B, C e D e imprime a diferenca entre os produtos A*B e C*D.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Dois produtos separados, depois subtrai. O resultado pode ser negativo e isso eh valido.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Nos dois usam int normal. Saida com concatenacao simples sem formatacao decimal.
+Nos tres usam int normal. Python nao precisa se preocupar com tipo, int ja cobre qualquer tamanho.
