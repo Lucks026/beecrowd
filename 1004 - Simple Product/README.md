@@ -14,11 +14,12 @@ Le dois inteiros e imprime o produto no formato "PROD = valor".
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Multiplicacao direta. Usei long/long long por precaucao contra overflow em valores grandes.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Long em Java e long long em C++ pra cobrir valores grandes. A saida eh concatenacao simples.
+Long em Java e long long em C++ pra cobrir valores grandes. Python nao tem limite de inteiro, entao nao precisa se preocupar com overflow.
