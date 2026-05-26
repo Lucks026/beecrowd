@@ -1,14 +1,12 @@
 import java.util.Scanner;
-import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-        double a = sc.nextDouble(), b = sc.nextDouble(), c = sc.nextDouble(), d = sc.nextDouble();
-        double media = (a + b + c + d) / 4.0;
-        System.out.printf("Media: %.1f%n", media);
-        if(media >= 7.0) System.out.println("Aluno aprovado.");
-        else if(media >= 5.0) System.out.println("Aluno em recuperacao.");
-        else System.out.println("Aluno reprovado.");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt(), d = sc.nextInt();
+        if(b > c && d > a && (c + d) > (a + b) && c > 0 && d > 0 && a % 2 == 0)
+            System.out.println("Valores aceitos");
+        else
+            System.out.println("Valores nao aceitos");
     }
 }
