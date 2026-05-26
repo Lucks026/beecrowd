@@ -6,7 +6,7 @@
 
 ## Descricao
 
-Le quatro notas, calcula a media e decide: aprovado >= 7, recuperacao >= 5, reprovado < 5.
+Le quatro inteiros A, B, C e D e verifica se atendem todas as condicoes: B > C, D > A, C+D > A+B, C e D positivos, A par.
 
 ## Resultado
 
@@ -14,11 +14,12 @@ Le quatro notas, calcula a media e decide: aprovado >= 7, recuperacao >= 5, repr
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
-If/else encadeado começa pelo maior limite. Se media == 5 cai no recuperacao, nao no reprovado.
+Um unico if com todas as condicoes ligadas por AND. Se todas passam, "Valores aceitos". Senao, "Valores nao aceitos".
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos. Printf para a media formatada, println/cout para o resultado textual.
+Identicos nos tres. Python usa "and" em vez de "&&" e nao precisa de parenteses extras.
