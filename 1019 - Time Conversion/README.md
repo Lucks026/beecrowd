@@ -14,11 +14,12 @@ Le um valor em segundos e converte para horas, minutos e segundos.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Horas: t / 3600. Minutos: (t % 3600) / 60. Segundos: t % 60. A ordem importa, cada calculo usa o resto do anterior.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos em logica. Em C++ usei printf, em Java concatenei string direto no println.
+Identicos em logica nos tres. Python usa // pra divisao inteira e format() pra saida.
