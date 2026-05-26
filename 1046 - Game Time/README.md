@@ -6,7 +6,7 @@
 
 ## Descricao
 
-Le inicio e fim de um jogo (horas inteiras) e calcula a duracao. Pode passar da meia-noite.
+Le inicio e fim de um jogo (horas inteiras) e calcula a duracao. Pode passar da meia-noite. Se inicio == fim, durou 24 horas.
 
 ## Resultado
 
@@ -14,11 +14,12 @@ Le inicio e fim de um jogo (horas inteiras) e calcula a duracao. Pode passar da 
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
-Se fim >= inicio, duracao e fim - inicio. Se nao, o jogo passou da meia-noite: (24 - inicio) + fim.
+Se fim > inicio, duracao e fim - inicio. Se fim <= inicio, passou da meia-noite: 24 - inicio + fim. Se dur == 0, seta 24.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos. Entrada inteira, saida com texto fixo.
+Identicos nos tres. Entrada inteira, saida em caixa alta com format()/printf.
