@@ -4,11 +4,10 @@ import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-        int code = sc.nextInt();
-        int qty = sc.nextInt();
-        double unitPrice = sc.nextDouble();
-        double total = qty * unitPrice;
-        System.out.printf("CODIGO: %d QUANTIDADE: %d VALOR UNITARIO: R$ %.2f%n", code, qty, unitPrice);
-        System.out.printf("VALOR TOTAL: R$ %.2f%n", total);
+        int c1 = sc.nextInt(), q1 = sc.nextInt();
+        double p1 = sc.nextDouble();
+        int c2 = sc.nextInt(), q2 = sc.nextInt();
+        double p2 = sc.nextDouble();
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n", q1 * p1 + q2 * p2);
     }
 }
