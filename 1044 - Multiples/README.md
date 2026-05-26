@@ -14,11 +14,12 @@ Verifica se A e multiplo de B ou B e multiplo de A.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 X e multiplo de Y se o resto da divisao de X por Y for zero. Verifico as duas direcoes com OR.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Iguais. Entrada inteira, sem formatacao especial.
+Iguais nos tres. Entrada inteira, operador % funciona igual nas tres linguagens.
