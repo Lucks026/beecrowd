@@ -14,11 +14,12 @@ Le tres valores A, B e C e calcula tres areas geometricas com eles. A e C sao us
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Os tres valores servem a propositos diferentes: A e C aparecem em dois calculos, B so aparece no circulo. Triangulo: (A * C) / 2. Circulo: pi * B^2. Trapezio: ((A + B) * C) / 2.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Pi em C++ vem do acos(-1.0), em Java do Math.PI. O resto e identico nos dois. O Locale.US no Scanner do Java e necessario para ler os valores com ponto decimal.
+Pi em C++ vem do acos(-1.0), em Java do Math.PI, em Python do math.pi. O Locale.US no Scanner do Java e necessario para ler os valores com ponto decimal.
