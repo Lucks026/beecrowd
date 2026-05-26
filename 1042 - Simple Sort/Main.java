@@ -4,8 +4,13 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] arr = {sc.nextInt(), sc.nextInt(), sc.nextInt()};
-        Arrays.sort(arr);
-        for(int n : arr) System.out.println(n);
+        int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
+        int[] sorted = {a, b, c};
+        Arrays.sort(sorted);
+        for(int n : sorted) System.out.println(n);
+        System.out.println();
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
     }
 }
