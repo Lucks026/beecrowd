@@ -6,7 +6,7 @@
 
 ## Descricao
 
-Le tres inteiros e os imprime em ordem crescente.
+Le tres inteiros, imprime em ordem crescente, depois uma linha em branco, e depois na ordem original.
 
 ## Resultado
 
@@ -14,11 +14,12 @@ Le tres inteiros e os imprime em ordem crescente.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Coloco os tres valores num array e uso a funcao de ordenacao padrao. Mais simples do que comparacoes manuais.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-C++ usa sort() com ponteiros. Java usa Arrays.sort(). Os dois ordenam in-place em ordem crescente.
+C++ usa sort() com ponteiros, Java usa Arrays.sort(). Python usa sorted() que retorna uma nova lista sem alterar a original.
