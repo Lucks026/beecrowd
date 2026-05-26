@@ -14,11 +14,12 @@ Le velocidade inicial (km/h), aceleracao (m/s^2) e tempo (s). Calcula a distanci
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 A velocidade vem em km/h mas a formula usa m/s. Converter antes: v / 3.6. Resultado em metros com 3 casas decimais.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Sem diferenca. Nos dois converto a velocidade na mesma linha da leitura.
+Sem diferenca entre os tres. A conversao de velocidade e a formula sao iguais.
