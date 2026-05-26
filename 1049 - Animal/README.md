@@ -14,11 +14,12 @@ Le tres strings (tipo, classificacao e alimentacao) e identifica o animal. Sao 8
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 A ideia eh uma arvore de decisao com if/else encadeado. Primeiro separa vertebrado de invertebrado, depois ave/mamifero ou inseto/anelideo, e por fim o tipo de alimentacao define o animal.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-No Java comparo strings com .equals(), no C++ basta usar ==. A leitura no Java usa nextLine() e no C++ getline(). O resto da logica fica identico.
+No Java comparo strings com .equals(), no C++ e Python basta usar ==. Python usa input().strip() pra leitura. A arvore de if/else fica identica nos tres.
