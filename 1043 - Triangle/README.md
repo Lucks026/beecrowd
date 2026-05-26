@@ -14,11 +14,12 @@ Valida o triangulo e classifica em equilatero, isosceles ou escaleno.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Condicao de triangulo: cada lado menor que a soma dos outros dois. Equilatero exige os tres iguais; isosceles basta dois iguais.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos. Locale.US no Java para leitura dos doubles.
+Identicos nos tres. Python permite comparar a == b == c direto sem precisar de && ou and duplo.
