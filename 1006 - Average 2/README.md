@@ -14,11 +14,12 @@ Le 3 valores e calcula a media ponderada com pesos 2, 3 e 5. Saida com 1 casa de
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 (A*2 + B*3 + C*5) / 10.0. A soma dos pesos eh 10, entao divide por 10.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos. Locale.US no Java pra leitura de doubles.
+Identicos nos tres. Locale.US no Java pra leitura de doubles. Python usa float(input()).
