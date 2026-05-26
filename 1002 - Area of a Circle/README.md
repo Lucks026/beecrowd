@@ -14,11 +14,12 @@ Le o raio e calcula a area do circulo com A = pi * R^2. Saida com 4 casas decima
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Formula direta. Nao tem espaco entre "A=" e o valor. Saida com %.4f.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Pi em Java vem do Math.PI e em C++ do acos(-1.0). Nos dois a saida usa printf com %.4f.
+Pi em Java vem do Math.PI, em C++ do acos(-1.0), em Python do math.pi. Nos tres a saida usa formatacao com 4 casas.
