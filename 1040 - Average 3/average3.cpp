@@ -1,18 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    double a, b, c;
-    cin >> a >> b >> c;
-    double media = (a*2 + b*3 + c*5) / 10.0;
+    double n1, n2, n3, n4;
+    cin >> n1 >> n2 >> n3 >> n4;
+    double media = (n1*2 + n2*3 + n3*4 + n4*1) / 10.0;
     printf("Media: %.1f\n", media);
-    if(media >= 5.0){
-        cout << "Aluno aprovado." << endl;
+    if(media >= 7.0){
+        printf("Aluno aprovado.\n");
+    } else if(media < 5.0){
+        printf("Aluno reprovado.\n");
     } else {
+        printf("Aluno em exame.\n");
         double exame; cin >> exame;
-        double final_ = (media + exame) / 2.0;
-        cout << "Aluno em exame final." << endl;
-        printf("Media final: %.1f\n", final_);
-        if(final_ >= 5.0) cout << "Aluno aprovado." << endl;
-        else cout << "Aluno reprovado." << endl;
+        printf("Nota do exame: %.1f\n", exame);
+        double mf = (media + exame) / 2.0;
+        if(mf >= 5.0) printf("Aluno aprovado.\n");
+        else printf("Aluno reprovado.\n");
+        printf("Media final: %.1f\n", mf);
     }
 }
