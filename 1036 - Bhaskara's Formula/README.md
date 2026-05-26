@@ -14,11 +14,12 @@ Calcula as raizes de uma equacao quadratica. Se delta < 0 ou A == 0, imprime "Im
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Dois casos invalidos: delta negativo e A == 0. R1 usa +sqrt, R2 usa -sqrt.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-sqrt() em C++ vira Math.sqrt() em Java. Mesma formula, mesmo formato %.5f.
+sqrt() em C++ vira Math.sqrt() em Java e math.sqrt() em Python. Mesma formula, mesmo formato %.5f.
