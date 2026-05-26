@@ -14,11 +14,12 @@ Le a distancia percorrida e o consumo do carro (km/l). Imprime quantos litros fo
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Litros gastos = distancia / consumo. O inverso do 1014, que calculava consumo a partir de distancia e litros.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos. So o Locale.US no Java para leitura com ponto decimal.
+Identicos nos tres. So o Locale.US no Java para leitura com ponto decimal. Python usa float(input()).
