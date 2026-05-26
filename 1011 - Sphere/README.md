@@ -14,11 +14,12 @@ Le o raio e calcula o volume da esfera: V = (4/3) * pi * R^3. Saida com 4 casas 
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Usar 4.0/3.0 pra divisao real, nao inteira. r * r * r em vez de pow() pra mais precisao. Saida com %.4f.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Pi: Math.PI no Java, acos(-1.0) no C++. No resto sao identicos.
+Pi: Math.PI no Java, acos(-1.0) no C++, math.pi no Python. No resto sao identicos.
