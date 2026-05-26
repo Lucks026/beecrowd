@@ -14,11 +14,12 @@ Le dois inteiros A e B e imprime a soma no formato "X = valor".
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Soma simples de dois inteiros. O formato de saida exige "X = " com espacos ao redor do igual.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Leitura com cin em C++ e mais direta que Scanner em Java. Na saida os dois usam concatenacao simples.
+Leitura com cin em C++ e mais direta que Scanner em Java. Python usa int(input()) e resolve a saida com print().
