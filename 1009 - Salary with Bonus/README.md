@@ -14,11 +14,12 @@ Le nome, salario fixo e vendas. Bonus eh 15% das vendas. Imprime o total com R$ 
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Total = salario + vendas * 0.15. O nome eh lido mas nao aparece na saida.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Leitura do nome com cin/next(), param no primeiro espaco. Calculo e saida com printf sao identicos.
+Leitura do nome com cin/next()/input(). Python eh o mais conciso com format() na saida.
