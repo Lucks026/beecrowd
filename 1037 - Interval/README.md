@@ -14,11 +14,12 @@ Le um numero e imprime em qual intervalo ele esta.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Colchete inclui o valor, parentese exclui. [0,25] usa >= 0 && <= 25. (25,50] usa > 25 && <= 50.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos. Locale.US no Java para leitura do double.
+Identicos nos tres. Python permite encadear comparacoes tipo 25 < n <= 50 de forma mais legivel.
