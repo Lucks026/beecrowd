@@ -14,11 +14,12 @@ Le dois pontos (x1, y1) e (x2, y2) e calcula a distancia euclidiana entre eles.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Teorema de Pitagoras no plano cartesiano. pow() eleva ao quadrado, sqrt() extrai a raiz. Saida com 4 casas decimais.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Em C++ uso pow() e sqrt() do bits/stdc++.h. Em Java uso Math.pow() e Math.sqrt(). Mesma logica, namespace diferente.
+Em C++ uso pow() e sqrt() do bits/stdc++.h. Em Java uso Math.pow() e Math.sqrt(). Python usa ** pra potencia e math.sqrt(). Mesma logica nos tres.
