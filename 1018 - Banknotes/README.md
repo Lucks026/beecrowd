@@ -14,11 +14,12 @@ Le um valor inteiro em reais e decompoe em cedulas de 100, 50, 20, 10, 5, 2 e 1.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Percorro o array de cedulas do maior pro menor. Para cada uma divido o valor restante pela cedula para saber quantas cabem, depois uso % para descontar e passar pro proximo.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Nos dois uso array de cedulas com for-each. Em C++ o array e declarado na stack, em Java e int[] normal. O comportamento e identico.
+Nos tres uso lista/array de cedulas com for. Python usa // pra divisao inteira em vez de /. O comportamento e identico.
