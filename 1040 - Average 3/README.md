@@ -6,7 +6,7 @@
 
 ## Descricao
 
-Tres notas com pesos 2, 3 e 5. Se media >= 5, aprovado. Senao, le exame e calcula media final.
+Le quatro notas com pesos 2, 3, 4 e 1. Se media >= 7 aprovado, se < 5 reprovado, senao le exame e calcula media final.
 
 ## Resultado
 
@@ -14,11 +14,12 @@ Tres notas com pesos 2, 3 e 5. Se media >= 5, aprovado. Senao, le exame e calcul
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
-A quarta leitura so acontece se o aluno nao foi aprovado. Fluxo condicional de entrada.
+A quinta leitura (exame) so acontece se o aluno ficou em exame. Fluxo condicional de entrada.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Identicos. Em C++ usei final_ com underscore porque final e palavra reservada em Java.
+Em C++ usei final_ com underscore porque final e palavra reservada. Python nao tem esse problema e fica mais conciso com if/elif/else.
