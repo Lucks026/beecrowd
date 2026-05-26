@@ -14,11 +14,12 @@ Imprimir "Hello World!" na saida padrao. Sem entrada.
 |-----------|----------|
 | C++       | Accepted |
 | Java      | Accepted |
+| Python    | Accepted |
 
 ## Logica
 
 Sem entrada, so saida. Uma unica linha de print em cada linguagem.
 
-## Java vs C++
+## Java vs C++ vs Python
 
-Em C++ sao tres linhas: include, using namespace e o cout. Em Java precisa declarar classe e metodo publico pra chegar no println. Bem mais verboso pro mesmo resultado.
+Em C++ sao tres linhas: include, using namespace e o cout. Em Java precisa declarar classe e metodo publico pra chegar no println. Python resolve em uma linha com print().
