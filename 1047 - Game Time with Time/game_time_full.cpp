@@ -3,7 +3,9 @@ using namespace std;
 int main(){
     int ih, im, fh, fm;
     cin >> ih >> im >> fh >> fm;
-    int ini = ih*60+im, fim = fh*60+fm;
-    int dur = (fim >= ini) ? fim-ini : 1440-ini+fim;
-    printf("O jogo durou %dh%dm\n", dur/60, dur%60);
+    int ini = ih * 60 + im, fim = fh * 60 + fm;
+    if(fim <= ini) fim += 1440;
+    int dur = fim - ini;
+    if(dur == 0) dur = 1440;
+    printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", dur / 60, dur % 60);
 }
