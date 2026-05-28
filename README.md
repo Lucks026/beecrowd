@@ -51,5 +51,15 @@ Resolucoes dos exercicios do Beecrowd. Cada pasta tem a solucao em Java, C++ e P
 | 1064 | Positivos e Media | Iniciante |
 | 1065 | Pares Entre Cinco Numeros | Iniciante |
 | 1066 | Pares Impares Positivos e Negativos | Iniciante |
+| 1067 | Numeros Impares | Iniciante |
+| 1070 | Seis Numeros Impares | Iniciante |
+| 1071 | Soma de Impares Consecutivos I | Iniciante |
+| 1072 | Intervalo 2 | Iniciante |
+| 1073 | Quadrado de Pares | Iniciante |
+| 1074 | Par ou Impar | Iniciante |
+| 1075 | Resto 2 | Iniciante |
+| 1078 | Tabuada | Iniciante |
+| 1079 | Medias Ponderadas | Iniciante |
+| 1080 | Maior e Posicao | Iniciante |
 
 Atualizo conforme vou avancando na plataforma.
