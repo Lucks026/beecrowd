@@ -61,5 +61,10 @@ Resolucoes dos exercicios do Beecrowd. Cada pasta tem a solucao em Java, C++ e P
 | 1078 | Tabuada | Iniciante |
 | 1079 | Medias Ponderadas | Iniciante |
 | 1080 | Maior e Posicao | Iniciante |
+| 1094 | Experiencias | Iniciante |
+| 1095 | Sequencia IJ 1 | Iniciante |
+| 1096 | Sequencia IJ 2 | Iniciante |
+| 1097 | Sequencia IJ 3 | Iniciante |
+| 1098 | Sequencia IJ 4 | Iniciante |
 
 Atualizo conforme vou avancando na plataforma.
