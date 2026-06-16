@@ -66,5 +66,15 @@ Resolucoes dos exercicios do Beecrowd. Cada pasta tem a solucao em Java, C++ e P
 | 1096 | Sequencia IJ 2 | Iniciante |
 | 1097 | Sequencia IJ 3 | Iniciante |
 | 1098 | Sequencia IJ 4 | Iniciante |
+| 1099 | Soma de Impares Consecutivos II | Iniciante |
+| 1101 | Sequencia de Numeros e Soma | Iniciante |
+| 1113 | Crescente e Decrescente | Iniciante |
+| 1114 | Senha Fixa | Iniciante |
+| 1115 | Quadrante | Iniciante |
+| 1116 | Dividindo X por Y | Iniciante |
+| 1117 | Validacao de Nota | Iniciante |
+| 1118 | Varias Notas Com Validacao | Iniciante |
+| 1131 | Grenais | Iniciante |
+| 1132 | Multiplos de 13 | Iniciante |
 
 Atualizo conforme vou avancando na plataforma.
