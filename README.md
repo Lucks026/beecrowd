@@ -76,5 +76,18 @@ Resolucoes dos exercicios do Beecrowd. Cada pasta tem a solucao em Java, C++ e P
 | 1118 | Varias Notas Com Validacao | Iniciante |
 | 1131 | Grenais | Iniciante |
 | 1132 | Multiplos de 13 | Iniciante |
+| 1133 | Resto da Divisao | Iniciante |
+| 1134 | Tipo de Combustivel | Iniciante |
+| 1142 | PUM | Iniciante |
+| 1143 | Quadrado e ao Cubo | Iniciante |
+| 1144 | Sequencia Logica | Iniciante |
+| 1145 | Sequencia Logica 2 | Iniciante |
+| 1146 | Sequencias Crescentes | Iniciante |
+| 1149 | Somando Inteiros Consecutivos | Iniciante |
+| 1150 | Ultrapassando Z | Iniciante |
+| 1151 | Fibonacci Facil | Iniciante |
+| 1153 | Fatorial Simples | Iniciante |
+| 1154 | Idades | Iniciante |
+| 1155 | Sequencia S | Iniciante |
 
 Atualizo conforme vou avancando na plataforma.
