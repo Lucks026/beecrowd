@@ -89,5 +89,9 @@ Resolucoes dos exercicios do Beecrowd. Cada pasta tem a solucao em Java, C++ e P
 | 1153 | Fatorial Simples | Iniciante |
 | 1154 | Idades | Iniciante |
 | 1155 | Sequencia S | Iniciante |
+| 1156 | Sequencia S II | Iniciante |
+| 1157 | Divisores I | Iniciante |
+| 1158 | Soma de Impares Consecutivos III | Iniciante |
+| 1159 | Soma de Pares Consecutivos | Iniciante |
 
 Atualizo conforme vou avancando na plataforma.
