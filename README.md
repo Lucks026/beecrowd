@@ -93,5 +93,9 @@ Resolucoes dos exercicios do Beecrowd. Cada pasta tem a solucao em Java, C++ e P
 | 1157 | Divisores I | Iniciante |
 | 1158 | Soma de Impares Consecutivos III | Iniciante |
 | 1159 | Soma de Pares Consecutivos | Iniciante |
+| 1160 | Crescimento Populacional | Iniciante |
+| 1164 | Numero Perfeito | Iniciante |
+| 1165 | Numero Primo | Iniciante |
+| 1172 | Substituicao em Vetor I | Iniciante |
 
 Atualizo conforme vou avancando na plataforma.
