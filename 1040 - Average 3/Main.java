@@ -3,6 +3,7 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         double n1 = sc.nextDouble(), n2 = sc.nextDouble();
         double n3 = sc.nextDouble(), n4 = sc.nextDouble();
