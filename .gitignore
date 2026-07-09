@@ -8,6 +8,10 @@ out/
 *.out
 a.out
 
+# Python
+__pycache__/
+*.pyc
+
 # IDEs
 .vscode/
 .idea/
