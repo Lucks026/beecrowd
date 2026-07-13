@@ -1,3 +1,4 @@
-a = float(input())
-b = float(input())
-print("SOMA = {:.1f}".format(a + b))
+import sys
+
+a, b = map(int, sys.stdin.read().split())
+print(f"SOMA = {a + b}")
