@@ -1,5 +1,4 @@
-a = float(input())
-b = float(input())
-c = float(input())
-d = float(input())
-print("MEDIA = {:.1f}".format((a + b + c + d) / 4.0))
+import sys
+
+a, b = map(float, sys.stdin.read().split())
+print("MEDIA = {:.5f}".format((3.5 * a + 7.5 * b) / 11.0))
