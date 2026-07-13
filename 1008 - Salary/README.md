@@ -12,6 +12,7 @@ Le numero do funcionario, horas trabalhadas e valor por hora. Imprime o salario 
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le numero do funcionario, horas trabalhadas e valor por hora. Imprime o salario 
 
 Multiplicacao direta de horas por valor/hora. Atencao no prefixo U$ na saida, diferente do R$ de outros problemas.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Em C++ misturei cout e printf. Em Java usei println e printf. Python usa format() pra formatar as 2 casas decimais.
+Em C sao dois printf (NUMBER e SALARY). Em C++ misturei cout e printf, em Java usei println e printf, e Python usa format() pra formatar as 2 casas decimais.
