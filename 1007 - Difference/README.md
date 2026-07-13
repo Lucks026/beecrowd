@@ -12,6 +12,7 @@ Le 4 inteiros A, B, C e D e imprime a diferenca entre os produtos A*B e C*D.
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le 4 inteiros A, B, C e D e imprime a diferenca entre os produtos A*B e C*D.
 
 Dois produtos separados, depois subtrai. O resultado pode ser negativo e isso eh valido.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Nos tres usam int normal. Python nao precisa se preocupar com tipo, int ja cobre qualquer tamanho.
+Os quatro usam int normal. C le com `scanf("%d %d %d %d")` e imprime com printf. Python nao precisa se preocupar com tipo, int ja cobre qualquer tamanho.
