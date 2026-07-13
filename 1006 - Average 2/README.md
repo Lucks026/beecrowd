@@ -12,6 +12,7 @@ Le 3 valores e calcula a media ponderada com pesos 2, 3 e 5. Saida com 1 casa de
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le 3 valores e calcula a media ponderada com pesos 2, 3 e 5. Saida com 1 casa de
 
 (A*2 + B*3 + C*5) / 10.0. A soma dos pesos eh 10, entao divide por 10.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identicos nos tres. Locale.US no Java pra leitura de doubles. Python usa float(input()).
+Identicos nas quatro. C e C++ leem com scanf/cin e imprimem com printf, Java usa Locale.US pra leitura de doubles e Python usa float(input()).

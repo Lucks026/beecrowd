@@ -6,7 +6,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         double r = sc.nextDouble();
-        double area = Math.PI * r * r;
+        double area = 3.14159 * r * r;
         System.out.printf("A=%.4f%n", area);
     }
 }

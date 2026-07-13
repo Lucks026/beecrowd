@@ -6,20 +6,21 @@
 
 ## Descricao
 
-Le 4 valores reais e calcula a media aritmetica simples. Saida com 1 casa decimal.
+Le dois valores reais A e B (notas com pesos 3.5 e 7.5) e imprime a media ponderada no formato "MEDIA = valor" com 5 casas decimais.
 
 ## Resultado
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
 
 ## Logica
 
-Soma dividida por 4.0 pra forcar divisao real. Saida com %.1f.
+media = (3.5 * A + 7.5 * B) / 11.0. A soma dos pesos eh 11, entao divide por 11. Saida com %.5f.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identicos em logica. Locale.US no Java pra leitura de doubles com ponto. Python ja faz divisao real por padrao.
+A formula ponderada eh a mesma nas quatro. C e C++ usam printf com %.5f, Java usa printf com Locale.US pra ler e imprimir com ponto, e Python usa format().

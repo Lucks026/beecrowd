@@ -12,6 +12,7 @@ Le dois inteiros A e B e imprime a soma no formato "X = valor".
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le dois inteiros A e B e imprime a soma no formato "X = valor".
 
 Soma simples de dois inteiros. O formato de saida exige "X = " com espacos ao redor do igual.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Leitura com cin em C++ e mais direta que Scanner em Java. Python usa int(input()) e resolve a saida com print().
+Em C, `scanf("%d %d")` le e `printf` monta a saida. Leitura com cin em C++ e mais direta que Scanner em Java. Python usa int(input()) e resolve a saida com print().

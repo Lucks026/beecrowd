@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    double a, b;
+    int a, b;
     cin >> a >> b;
-    printf("SOMA = %.1f\n", a + b);
+    cout << "SOMA = " << a + b << endl;
 }

@@ -1,8 +1,8 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
 
 int main(){
     double a, b;
-    cin >> a >> b;
+    scanf("%lf %lf", &a, &b);
     printf("MEDIA = %.5f\n", (3.5 * a + 7.5 * b) / 11.0);
+    return 0;
 }

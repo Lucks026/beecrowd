@@ -12,6 +12,7 @@ Le dois inteiros e imprime o produto no formato "PROD = valor".
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le dois inteiros e imprime o produto no formato "PROD = valor".
 
 Multiplicacao direta. Usei long/long long por precaucao contra overflow em valores grandes.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Long em Java e long long em C++ pra cobrir valores grandes. Python nao tem limite de inteiro, entao nao precisa se preocupar com overflow.
+Em C, `long long` com `%lld` no scanf/printf. Long em Java e long long em C++ pra cobrir valores grandes. Python nao tem limite de inteiro, entao nao precisa se preocupar com overflow.
