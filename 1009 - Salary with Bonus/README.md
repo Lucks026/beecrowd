@@ -12,6 +12,7 @@ Le nome, salario fixo e vendas. Bonus eh 15% das vendas. Imprime o total com R$ 
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le nome, salario fixo e vendas. Bonus eh 15% das vendas. Imprime o total com R$ 
 
 Total = salario + vendas * 0.15. O nome eh lido mas nao aparece na saida.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Leitura do nome com cin/next()/input(). Python eh o mais conciso com format() na saida.
+Leitura do nome com scanf("%s")/cin/next()/input(), sempre uma palavra so. C, C++ e Java formatam a saida com printf e %.2f, e Python usa format().
