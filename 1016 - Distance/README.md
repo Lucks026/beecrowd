@@ -6,20 +6,21 @@
 
 ## Descricao
 
-Le velocidade inicial (km/h), aceleracao (m/s^2) e tempo (s). Calcula a distancia com d = v*t + (a*t^2)/2.
+Le um valor inteiro X (distancia em km entre dois carros). O carro de tras ganha 1 km a cada 2 minutos, entao o tempo para alcancar eh 2*X. Imprime "2X minutos".
 
 ## Resultado
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
 
 ## Logica
 
-A velocidade vem em km/h mas a formula usa m/s. Converter antes: v / 3.6. Resultado em metros com 3 casas decimais.
+Resposta = X * 2, seguida do texto " minutos". Problema direto de uma operacao.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Sem diferenca entre os tres. A conversao de velocidade e a formula sao iguais.
+Identico nas quatro. So multiplica por 2 e concatena o texto na saida.
