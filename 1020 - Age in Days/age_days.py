@@ -1,4 +1,4 @@
-anos = int(input())
-meses = int(input())
-dias = int(input())
-print("{} dia(s)".format(anos * 365 + meses * 30 + dias))
+n = int(input())
+print(f"{n // 365} ano(s)")
+print(f"{(n % 365) // 30} mes(es)")
+print(f"{(n % 365) % 30} dia(s)")

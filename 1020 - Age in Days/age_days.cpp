@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int anos, meses, dias;
-    cin >> anos >> meses >> dias;
-    printf("%d dia(s)\n", anos * 365 + meses * 30 + dias);
+    int n;
+    cin >> n;
+    cout << n / 365 << " ano(s)" << endl;
+    cout << (n % 365) / 30 << " mes(es)" << endl;
+    cout << (n % 365) % 30 << " dia(s)" << endl;
 }

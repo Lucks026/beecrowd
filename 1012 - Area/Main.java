@@ -7,7 +7,9 @@ public class Main {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         double a = sc.nextDouble(), b = sc.nextDouble(), c = sc.nextDouble();
         System.out.printf("TRIANGULO: %.3f%n", (a * c) / 2.0);
-        System.out.printf("CIRCULO: %.3f%n", Math.PI * b * b);
+        System.out.printf("CIRCULO: %.3f%n", 3.14159 * c * c);
         System.out.printf("TRAPEZIO: %.3f%n", ((a + b) * c) / 2.0);
+        System.out.printf("QUADRADO: %.3f%n", b * b);
+        System.out.printf("RETANGULO: %.3f%n", a * b);
     }
 }

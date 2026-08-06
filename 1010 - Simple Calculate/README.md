@@ -6,20 +6,21 @@
 
 ## Descricao
 
-Le codigo, quantidade e preco unitario de dois produtos. Imprime o valor total.
+Le codigo, quantidade e preco unitario de dois produtos. Imprime o valor total a pagar no formato "VALOR A PAGAR: R$ X.XX".
 
 ## Resultado
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
 
 ## Logica
 
-Quantidade vezes preco unitario pra cada produto, depois soma os dois. A saida exige formato especifico com os campos na mesma linha.
+Quantidade vezes preco unitario para cada produto, depois soma os dois totais. A saida tem um formato fixo com 2 casas decimais.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Printf em Java e C++ pra controlar o formato. Locale.US no Java pra ler os precos. Python usa split() pra ler a linha inteira de uma vez.
+C, C++ e Java usam printf para controlar o formato; o Java precisa de Locale.US para ler os precos com ponto. Python le com split() e formata com f-string/format.

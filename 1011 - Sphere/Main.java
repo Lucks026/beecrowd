@@ -6,7 +6,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         double r = sc.nextDouble();
-        double volume = (4.0 / 3.0) * Math.PI * r * r * r;
-        System.out.printf("VOLUME = %.4f%n", volume);
+        double volume = (4.0 / 3.0) * 3.14159 * r * r * r;
+        System.out.printf("VOLUME = %.3f%n", volume);
     }
 }

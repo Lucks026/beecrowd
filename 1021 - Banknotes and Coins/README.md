@@ -12,14 +12,15 @@ Le um valor em reais com centavos e decompoe em cedulas e moedas, do maior para 
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
 
 ## Logica
 
-Nunca opere com doubles em dinheiro. Multiplico por 100 e arredondo para inteiro logo na leitura. A partir dai tudo e divisao e resto inteiro, igual ao 1018 so com mais denominacoes.
+Nunca operar com double em dinheiro. Multiplico por 100 e arredondo para inteiro logo na leitura; a partir dai eh tudo divisao e resto inteiro, igual ao 1018 com mais denominacoes.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-O round() em C++ e da cmath, em Java e Math.round() que retorna long. Python tem round() nativo. Python usa // pra divisao inteira.
+O round() vem do cmath em C e C++, do Math.round() (retorna long) em Java, e eh nativo em Python. Todos trabalham com centavos inteiros para evitar erro de ponto flutuante.
