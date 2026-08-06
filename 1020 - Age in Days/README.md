@@ -6,20 +6,21 @@
 
 ## Descricao
 
-Le a idade em anos, meses e dias. Converte tudo para dias: 1 ano = 365, 1 mes = 30.
+Le um valor inteiro (idade em dias) e converte para anos, meses e dias, considerando ano de 365 dias e mes de 30 dias.
 
 ## Resultado
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
 
 ## Logica
 
-Cada unidade tem peso fixo: ano vale 365, mes vale 30. Multiplica e soma. Nao considera anos bissextos nem meses com 28 ou 31 dias.
+Anos: n/365. Meses: (n%365)/30. Dias: (n%365)%30. Cada valor sai em sua linha com o sufixo "ano(s)", "mes(es)" e "dia(s)".
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Os tres ficaram quase iguais. Tudo inteiro, sem ponto flutuante. Python usa format() na saida.
+Identico nas quatro. Tudo inteiro, com divisoes e restos encadeados. Python usa // para divisao inteira.
