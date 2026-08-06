@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    double dist, consumo;
-    cin >> dist >> consumo;
-    printf("%.3f litros\n", dist / consumo);
+    double tempo, velocidade;
+    cin >> tempo >> velocidade;
+    printf("%.3f\n", tempo * velocidade / 12.0);
 }
