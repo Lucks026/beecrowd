@@ -6,20 +6,21 @@
 
 ## Descricao
 
-Le um valor inteiro em reais e decompoe em cedulas de 100, 50, 20, 10, 5, 2 e 1.
+Le um valor inteiro em reais, imprime o valor e o decompoe em cedulas de 100, 50, 20, 10, 5, 2 e 1.
 
 ## Resultado
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
 
 ## Logica
 
-Percorro o array de cedulas do maior pro menor. Para cada uma divido o valor restante pela cedula para saber quantas cabem, depois uso % para descontar e passar pro proximo.
+Percorro as cedulas do maior para o menor. Para cada uma, divido o valor restante pela cedula (quantas cabem) e uso o resto para seguir para a proxima.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Nos tres uso lista/array de cedulas com for. Python usa // pra divisao inteira em vez de /. O comportamento e identico.
+Nos quatro uso um array de cedulas com laco. Python usa // para divisao inteira; C, C++ e Java usam / entre inteiros. O comportamento eh o mesmo.
