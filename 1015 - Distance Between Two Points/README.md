@@ -6,20 +6,21 @@
 
 ## Descricao
 
-Le dois pontos (x1, y1) e (x2, y2) e calcula a distancia euclidiana entre eles.
+Le dois pontos (x1, y1) e (x2, y2), um par por linha, e calcula a distancia euclidiana entre eles com 4 casas decimais.
 
 ## Resultado
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
 
 ## Logica
 
-Teorema de Pitagoras no plano cartesiano. pow() eleva ao quadrado, sqrt() extrai a raiz. Saida com 4 casas decimais.
+Teorema de Pitagoras no plano: raiz de ((x2-x1)^2 + (y2-y1)^2). Saida com 4 casas decimais.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Em C++ uso pow() e sqrt() do bits/stdc++.h. Em Java uso Math.pow() e Math.sqrt(). Python usa ** pra potencia e math.sqrt(). Mesma logica nos tres.
+C e C++ usam sqrt/pow; Java usa Math.sqrt/Math.pow; Python usa ** e math.sqrt. Cada ponto vem em uma linha, com as duas coordenadas separadas por espaco.
