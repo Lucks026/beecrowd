@@ -6,7 +6,7 @@
 
 ## Descricao
 
-Valida o triangulo e classifica como retangulo, obtusangulo ou acutangulo.
+Le tres lados. Se nao formam triangulo, imprime "NAO FORMA TRIANGULO". Caso contrario, classifica pelo angulo (RETANGULO/OBTUSANGULO/ACUTANGULO) e, quando for o caso, tambem pelos lados (EQUILATERO/ISOSCELES).
 
 ## Resultado
 
@@ -18,8 +18,8 @@ Valida o triangulo e classifica como retangulo, obtusangulo ou acutangulo.
 
 ## Logica
 
-Ordeno os lados para garantir que z seja o maior. Se z^2 == x^2+y^2, retangulo. Se z^2 > x^2+y^2, obtusangulo. Se z^2 < x^2+y^2, acutangulo.
+Ordena os lados com o maior primeiro (A). Se A >= B+C, nao forma triangulo. Senao, compara A^2 com B^2+C^2 para achar o tipo de angulo e verifica os lados iguais para equilatero/isosceles. Pode imprimir duas linhas (angulo + lados).
 
 ## Java vs C++ vs Python
 
-C++ usa sort() com ponteiros, Java usa Arrays.sort(). Python usa sorted() que retorna lista nova. Mesma logica de comparacao dos quadrados.
+C++ usa sort(), Java usa Arrays.sort(), Python usa sorted(reverse=True). As mensagens saem em maiusculas com o prefixo TRIANGULO.
