@@ -97,5 +97,10 @@ Resolucoes dos exercicios do Beecrowd. Cada pasta tem a solucao em Java, C++ e P
 | 1164 | Numero Perfeito | Iniciante |
 | 1165 | Numero Primo | Iniciante |
 | 1172 | Substituicao em Vetor I | Iniciante |
+| 1173 | Preenchimento de Vetor I | Iniciante |
+| 1174 | Selecao em Vetor I | Iniciante |
+| 1175 | Troca em Vetor I | Iniciante |
+| 1176 | Fibonacci em Vetor | Iniciante |
+| 1177 | Preenchimento de Vetor II | Iniciante |
 
 Atualizo conforme vou avancando na plataforma.
