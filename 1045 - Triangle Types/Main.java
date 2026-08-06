@@ -4,15 +4,19 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         double[] arr = {sc.nextDouble(), sc.nextDouble(), sc.nextDouble()};
-        double a=arr[0], b=arr[1], c=arr[2];
-        if(a < b+c && b < a+c && c < a+b){
-            Arrays.sort(arr);
-            double x=arr[0], y=arr[1], z=arr[2];
-            if(z*z == x*x+y*y) System.out.println("Retangulo");
-            else if(z*z > x*x+y*y) System.out.println("Obtusangulo");
-            else System.out.println("Acutangulo");
-        } else System.out.println("Invalido");
+        Arrays.sort(arr);
+        double a = arr[2], b = arr[1], c = arr[0];
+        if(a >= b + c){
+            System.out.println("NAO FORMA TRIANGULO");
+        } else {
+            if(a * a == b * b + c * c) System.out.println("TRIANGULO RETANGULO");
+            else if(a * a > b * b + c * c) System.out.println("TRIANGULO OBTUSANGULO");
+            else System.out.println("TRIANGULO ACUTANGULO");
+            if(a == b && b == c) System.out.println("TRIANGULO EQUILATERO");
+            else if(a == b || b == c) System.out.println("TRIANGULO ISOSCELES");
+        }
     }
 }
