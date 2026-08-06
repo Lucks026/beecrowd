@@ -6,20 +6,21 @@
 
 ## Descricao
 
-Le a distancia percorrida e o consumo do carro (km/l). Imprime quantos litros foram gastos.
+Le o tempo (horas) e a velocidade media (km/h). O carro faz 12 km por litro. Calcula os litros gastos: (tempo * velocidade) / 12. Saida com 3 casas decimais.
 
 ## Resultado
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
 
 ## Logica
 
-Litros gastos = distancia / consumo. O inverso do 1014, que calculava consumo a partir de distancia e litros.
+Distancia = tempo * velocidade. Litros = distancia / 12. A saida eh so o numero com %.3f, sem nenhum texto ao lado.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identicos nos tres. So o Locale.US no Java para leitura com ponto decimal. Python usa float(input()).
+C, C++ e Java imprimem com printf e %.3f (Java com Locale.US para ler com ponto); Python usa format com :.3f.
