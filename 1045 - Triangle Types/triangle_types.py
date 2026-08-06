@@ -1,12 +1,15 @@
-a, b, c = map(float, input().split())
-if a < b + c and b < a + c and c < a + b:
-    arr = sorted([a, b, c])
-    x, y, z = arr[0], arr[1], arr[2]
-    if z*z == x*x + y*y:
-        print("Retangulo")
-    elif z*z > x*x + y*y:
-        print("Obtusangulo")
-    else:
-        print("Acutangulo")
+vals = sorted(map(float, input().split()), reverse=True)
+a, b, c = vals[0], vals[1], vals[2]
+if a >= b + c:
+    print("NAO FORMA TRIANGULO")
 else:
-    print("Invalido")
+    if a * a == b * b + c * c:
+        print("TRIANGULO RETANGULO")
+    elif a * a > b * b + c * c:
+        print("TRIANGULO OBTUSANGULO")
+    else:
+        print("TRIANGULO ACUTANGULO")
+    if a == b == c:
+        print("TRIANGULO EQUILATERO")
+    elif a == b or b == c:
+        print("TRIANGULO ISOSCELES")
