@@ -22,4 +22,4 @@ Converte os dois horarios pra segundos totais, subtrai um do outro e depois divi
 
 ## Java vs C++ vs Python
 
-No Java usei sc.next() pra pular o texto "Dia" e ":". No C++ usei string lixo e char. Python usa split() na linha inteira e pega os indices certos. A logica matematica eh a mesma.
+No Java usei sc.next() pra pular o texto "Dia" e ":". No C++ usei string lixo e char. No Python leio a linha "Dia D" e a linha do horario separadamente, trocando ":" por espaco antes do split. A logica matematica eh a mesma.

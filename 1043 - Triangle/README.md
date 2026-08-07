@@ -6,7 +6,7 @@
 
 ## Descricao
 
-Valida o triangulo e classifica em equilatero, isosceles ou escaleno.
+Le tres valores reais A, B e C. Se formam um triangulo, imprime o perimetro ("Perimetro = X.X"). Caso contrario, imprime a area do trapezio de bases A e B e altura C ("Area = X.X"). Saida com 1 casa decimal.
 
 ## Resultado
 
@@ -18,8 +18,8 @@ Valida o triangulo e classifica em equilatero, isosceles ou escaleno.
 
 ## Logica
 
-Condicao de triangulo: cada lado menor que a soma dos outros dois. Equilatero exige os tres iguais; isosceles basta dois iguais.
+Condicao de triangulo: cada lado menor que a soma dos outros dois. Se valido, perimetro = A+B+C. Se invalido, area do trapezio = ((A+B)*C)/2.
 
 ## Java vs C++ vs Python
 
-Identicos nos tres. Python permite comparar a == b == c direto sem precisar de && ou and duplo.
+Identicos nos tres. Java usa Locale.US e printf, C++ usa printf, Python usa format. So muda a sintaxe de saida.
