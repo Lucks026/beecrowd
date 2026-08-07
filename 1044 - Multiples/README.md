@@ -12,6 +12,7 @@ Verifica se A e multiplo de B ou B e multiplo de A.
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Verifica se A e multiplo de B ou B e multiplo de A.
 
 X e multiplo de Y se o resto da divisao de X por Y for zero. Verifico as duas direcoes com OR.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Iguais nos tres. Entrada inteira, operador % funciona igual nas tres linguagens.
+Iguais nos tres. Entrada inteira, operador % funciona igual nas tres linguagens. Em C, scanf le os dois valores na mesma linha; verificacao com modulo.

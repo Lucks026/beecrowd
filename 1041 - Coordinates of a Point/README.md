@@ -12,6 +12,7 @@ Le X e Y (reais) e determina se esta na origem, no Eixo X, Eixo Y ou em qual qua
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le X e Y (reais) e determina se esta na origem, no Eixo X, Eixo Y ou em qual qua
 
 Origem vem primeiro (caso mais especifico). Depois eixos. Se passou pelos dois, e algum quadrante.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identicos nos tres. Locale.US no Java pra leitura dos doubles. Python usa map(float, input().split()).
+Identicos nos tres. Locale.US no Java pra leitura dos doubles. Python usa map(float, input().split()). Em C, a cadeia de if/else if compara os sinais igual aos outros.

@@ -12,6 +12,7 @@ Le inicio e fim de um jogo (horas inteiras) e calcula a duracao. Pode passar da 
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le inicio e fim de um jogo (horas inteiras) e calcula a duracao. Pode passar da 
 
 Se fim > inicio, duracao e fim - inicio. Se fim <= inicio, passou da meia-noite: 24 - inicio + fim. Se dur == 0, seta 24.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identicos nos tres. Entrada inteira, saida em caixa alta com format()/printf.
+Identicos nos tres. Entrada inteira, saida em caixa alta com format()/printf. Em C, a aritmetica de horas eh identica, com scanf/printf.

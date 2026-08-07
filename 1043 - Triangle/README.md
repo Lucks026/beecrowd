@@ -12,6 +12,7 @@ Le tres valores reais A, B e C. Se formam um triangulo, imprime o perimetro ("Pe
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le tres valores reais A, B e C. Se formam um triangulo, imprime o perimetro ("Pe
 
 Condicao de triangulo: cada lado menor que a soma dos outros dois. Se valido, perimetro = A+B+C. Se invalido, area do trapezio = ((A+B)*C)/2.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identicos nos tres. Java usa Locale.US e printf, C++ usa printf, Python usa format. So muda a sintaxe de saida.
+Identicos nos tres. Java usa Locale.US e printf, C++ usa printf, Python usa format. So muda a sintaxe de saida. Em C, scanf/printf; a condicao de triangulo eh a mesma.

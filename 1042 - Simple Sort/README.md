@@ -12,6 +12,7 @@ Le tres inteiros, imprime em ordem crescente, depois uma linha em branco, e depo
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le tres inteiros, imprime em ordem crescente, depois uma linha em branco, e depo
 
 Coloco os tres valores num array e uso a funcao de ordenacao padrao. Mais simples do que comparacoes manuais.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-C++ usa sort() com ponteiros, Java usa Arrays.sort(). Python usa sorted() que retorna uma nova lista sem alterar a original.
+C++ usa sort() com ponteiros, Java usa Arrays.sort(). Python usa sorted() que retorna uma nova lista sem alterar a original. Em C nao ha sort de biblioteca pronto, entao ordeno os tres valores manualmente.

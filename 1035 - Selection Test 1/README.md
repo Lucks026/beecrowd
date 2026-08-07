@@ -12,6 +12,7 @@ Le quatro inteiros A, B, C e D e verifica se atendem todas as condicoes: B > C, 
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le quatro inteiros A, B, C e D e verifica se atendem todas as condicoes: B > C, 
 
 Um unico if com todas as condicoes ligadas por AND. Se todas passam, "Valores aceitos". Senao, "Valores nao aceitos".
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identicos nos tres. Python usa "and" em vez de "&&" e nao precisa de parenteses extras.
+Identicos nos tres. Python usa "and" em vez de "&&" e nao precisa de parenteses extras. Em C, scanf le os quatro inteiros e a condicao logica eh a mesma.
