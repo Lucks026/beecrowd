@@ -12,6 +12,7 @@ Le tres lados. Se nao formam triangulo, imprime "NAO FORMA TRIANGULO". Caso cont
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le tres lados. Se nao formam triangulo, imprime "NAO FORMA TRIANGULO". Caso cont
 
 Ordena os lados com o maior primeiro (A). Se A >= B+C, nao forma triangulo. Senao, compara A^2 com B^2+C^2 para achar o tipo de angulo e verifica os lados iguais para equilatero/isosceles. Pode imprimir duas linhas (angulo + lados).
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-C++ usa sort(), Java usa Arrays.sort(), Python usa sorted(reverse=True). As mensagens saem em maiusculas com o prefixo TRIANGULO.
+C++ usa sort(), Java usa Arrays.sort(), Python usa sorted(reverse=True). As mensagens saem em maiusculas com o prefixo TRIANGULO. Em C ordeno os lados manualmente (sem sort de biblioteca) e classifico igual.
