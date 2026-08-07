@@ -12,6 +12,7 @@ Le um salario e aplica o reajuste conforme a faixa salarial (4% a 15%).
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le um salario e aplica o reajuste conforme a faixa salarial (4% a 15%).
 
 If/else percorre as faixas de baixo pra cima. O calculo usa reajuste/100.0 com .0 para forcar divisao real, nao inteira.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Em C++ usei cout com fixed e setprecision(2), em Java usei printf. Python usa format() com :.2f. O resultado e o mesmo.
+Em C++ usei cout com fixed e setprecision(2), em Java usei printf. Python usa format() com :.2f. O resultado e o mesmo. Em C uso printf com %.2f; a tabela de faixas eh a mesma.
