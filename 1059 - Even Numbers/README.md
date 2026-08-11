@@ -12,6 +12,7 @@ Imprime todos os numeros pares de 2 a 100, um por linha.
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Imprime todos os numeros pares de 2 a 100, um por linha.
 
 Um for comecando em 2, indo ate 100, com incremento de 2. Sem entrada, so saida.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identico nas tres. Python usa range(2, 101, 2) que ja define inicio, fim e passo.
+Identico nas tres. Python usa range(2, 101, 2) que ja define inicio, fim e passo. Em C, laco simples com printf, sem entrada.
