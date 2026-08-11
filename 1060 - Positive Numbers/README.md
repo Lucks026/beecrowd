@@ -12,6 +12,7 @@ Le 6 valores (podem ser decimais) e conta quantos sao positivos. Imprime a quant
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le 6 valores (podem ser decimais) e conta quantos sao positivos. Imprime a quant
 
 Um for de 6 iteracoes, le o valor e incrementa o contador se for maior que zero. No final imprime o total.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-O Java precisa de Locale.US no Scanner pra ler decimais com ponto. No C++ o cin ja resolve. Python usa float(input()) direto.
+O Java precisa de Locale.US no Scanner pra ler decimais com ponto. No C++ o cin ja resolve. Python usa float(input()) direto. Em C, scanf le os seis valores e conto os positivos.

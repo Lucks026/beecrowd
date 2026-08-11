@@ -12,6 +12,7 @@ Le 5 inteiros e conta quantos sao pares.
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le 5 inteiros e conta quantos sao pares.
 
 For de 5 iteracoes, checa n % 2 == 0 pra ver se eh par. Bem direto, so conta e imprime.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Nenhuma diferenca relevante. A verificacao de par com modulo funciona igual nas tres. So muda a funcao de saida.
+Nenhuma diferenca relevante. A verificacao de par com modulo funciona igual nas tres. So muda a funcao de saida. Em C, scanf le os cinco valores e conto os pares com modulo.
