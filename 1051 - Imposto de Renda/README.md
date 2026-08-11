@@ -12,6 +12,7 @@ Le um salario e calcula o imposto progressivo. Ate 2000 eh isento, de 2000 a 300
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le um salario e calcula o imposto progressivo. Ate 2000 eh isento, de 2000 a 300
 
 O imposto eh progressivo, entao cada faixa taxa so o que excede o limite anterior. Usei Math.min (Java) e min (C++) pra limitar cada parcela. Se der isento, imprime "Isento" sem valor.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-No Java formatei a saida com printf, no C++ com cout e setprecision(2). Python usa min() nativo e format() na saida.
+No Java formatei a saida com printf, no C++ com cout e setprecision(2). Python usa min() nativo e format() na saida. Em C uso o operador ternario no lugar do min() do C++ e printf com %.2f.
