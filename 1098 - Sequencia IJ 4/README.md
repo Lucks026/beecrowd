@@ -12,6 +12,7 @@ Imprime uma sequencia de pares I/J onde I varia de 0 a 2 com passo 0.2, e para c
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Imprime uma sequencia de pares I/J onde I varia de 0 a 2 com passo 0.2, e para c
 
 Usa um contador inteiro (step de 0 a 10) e calcula I = step * 0.2 para evitar erros de ponto flutuante. Quando step % 5 == 0, I cai em valor inteiro (0, 1 ou 2) e formata como inteiro; caso contrario, formata com uma casa decimal. J segue a formula 1 + I + k onde k vai de 0 a 2.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java usa `Locale.US` no `printf` para garantir o ponto como separador decimal. C++ usa `printf("%.1f")`. Python usa f-string com `:.1f`. Os tres usam `round` para evitar problemas de precisao na hora de converter para inteiro.
+Java usa `Locale.US` no `printf` para garantir o ponto como separador decimal. C++ usa `printf("%.1f")`. Python usa f-string com `:.1f`. Os tres usam `round` para evitar problemas de precisao na hora de converter para inteiro. Em C uso round() de math.h pros casos inteiros e %.1f pros demais.
