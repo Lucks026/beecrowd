@@ -12,6 +12,7 @@ Imprime uma sequencia de pares I/J onde I comeca em 1 e cresce de 3 em 3, enquan
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Imprime uma sequencia de pares I/J onde I comeca em 1 e cresce de 3 em 3, enquan
 
 Loop while com condicao `j >= 0`. A cada iteracao imprime no formato "I=valor J=valor", soma 3 em I e subtrai 5 de J. Termina quando J fica negativo.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identico nos tres. Mesma estrutura de loop while com duas variaveis. Java usa concatenacao, C++ usa `cout` encadeado, Python usa f-string.
+Identico nos tres. Mesma estrutura de loop while com duas variaveis. Java usa concatenacao, C++ usa `cout` encadeado, Python usa f-string. Em C, while com printf; mesma aritmetica de I e J.
