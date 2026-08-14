@@ -12,6 +12,7 @@ Le um inteiro N (2 < N < 1000) e imprime a tabuada de N no formato "i x N = resu
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le um inteiro N (2 < N < 1000) e imprime a tabuada de N no formato "i x N = resu
 
 Um loop de 1 a 10 que imprime cada linha da tabuada no formato especificado, calculando i * N.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identico nos tres. Java usa concatenacao de String, C++ usa `cout` encadeado, Python usa f-string. Mesmo formato "i x N = resultado" com espacos ao redor do x e do =.
+Identico nos tres. Java usa concatenacao de String, C++ usa `cout` encadeado, Python usa f-string. Mesmo formato "i x N = resultado" com espacos ao redor do x e do =. Em C, laco de 1 a 10 com printf montando a linha da tabuada.
