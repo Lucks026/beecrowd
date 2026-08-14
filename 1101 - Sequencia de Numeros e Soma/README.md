@@ -12,6 +12,7 @@ Le pares de valores M e N ate que um deles seja menor ou igual a zero. Para cada
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le pares de valores M e N ate que um deles seja menor ou igual a zero. Para cada
 
 Loop infinito que le M e N e para quando qualquer um eh <= 0. Ordena para M <= N, imprime cada numero seguido de espaco somando ao acumulador, e no fim imprime "Sum=" com o total.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java usa `hasNextInt()` para controlar a leitura, C++ usa `while(cin >> m >> n)`, Python le linha a linha de `sys.stdin`. A saida tem espaco apos cada numero e "Sum=" colado no total.
+Java usa `hasNextInt()` para controlar a leitura, C++ usa `while(cin >> m >> n)`, Python le linha a linha de `sys.stdin`. A saida tem espaco apos cada numero e "Sum=" colado no total. Em C leio com while(scanf(...) == 2) e paro quando um valor eh <= 0.
