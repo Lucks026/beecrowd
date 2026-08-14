@@ -12,6 +12,7 @@ Imprime uma sequencia de pares I/J onde I assume os valores impares de 1 a 9. Pa
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Imprime uma sequencia de pares I/J onde I assume os valores impares de 1 a 9. Pa
 
 Loops aninhados. Externo: I de 1 a 9 com passo 2. Interno: J comeca em I+6 e decresce 3 vezes (jStart, jStart-1, jStart-2). A relacao J = I + 6 faz J subir junto com I.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identico nos tres. A diferenca em relacao ao 1096 eh que J depende de I (J inicial muda a cada iteracao externa). Mesma estrutura de for aninhado.
+Identico nos tres. A diferenca em relacao ao 1096 eh que J depende de I (J inicial muda a cada iteracao externa). Mesma estrutura de for aninhado. Em C, J comeca em I+6 e desce tres vezes, com printf.
