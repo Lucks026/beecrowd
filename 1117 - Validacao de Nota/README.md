@@ -12,6 +12,7 @@ Le notas reais ate obter duas validas (no intervalo [0, 10]). Para cada nota inv
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le notas reais ate obter duas validas (no intervalo [0, 10]). Para cada nota inv
 
 Loop que conta notas validas. A cada leitura, verifica se esta entre 0 e 10. Se valida, guarda e incrementa o contador; se invalida, imprime a mensagem. Ao chegar em duas validas, calcula e imprime a media.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java usa `Scanner.useLocale(Locale.US)` para ler decimais com ponto e `printf(Locale.US)` na saida. C++ usa `printf("%.2f")`. Python usa f-string com `:.2f`. A validacao do intervalo eh identica nos tres.
+Java usa `Scanner.useLocale(Locale.US)` para ler decimais com ponto e `printf(Locale.US)` na saida. C++ usa `printf("%.2f")`. Python usa f-string com `:.2f`. A validacao do intervalo eh identica nos tres. Em C, laco ate duas notas validas e printf com %.2f.

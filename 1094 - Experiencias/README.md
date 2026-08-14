@@ -12,6 +12,7 @@ Le N experiencias, cada uma com a quantidade de cobaias e o tipo (C para coelho,
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le N experiencias, cada uma com a quantidade de cobaias e o tipo (C para coelho,
 
 Tres contadores acumuladores, um para cada tipo. A cada iteracao, le qtd e tipo e soma no contador certo. No final calcula o total (soma dos tres) e o percentual de cada um como (contador * 100 / total).
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java usa `Locale.US` no `printf` para imprimir decimal com ponto. C++ usa `printf` direto. Python usa f-string com `:.2f`. O sinal `%` precisa ser escapado nos formatadores (em Java/C++ usa `%%`, em Python o `%` literal funciona dentro da f-string).
+Java usa `Locale.US` no `printf` para imprimir decimal com ponto. C++ usa `printf` direto. Python usa f-string com `:.2f`. O sinal `%` precisa ser escapado nos formatadores (em Java/C++ usa `%%`, em Python o `%` literal funciona dentro da f-string). Em C uso scanf("%d %c") pra ler quantidade e tipo, e printf com %.2f e %% pro percentual.

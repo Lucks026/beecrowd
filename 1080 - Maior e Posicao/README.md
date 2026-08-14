@@ -12,6 +12,7 @@ Le 100 valores inteiros positivos e distintos. Imprime o maior valor lido e a po
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le 100 valores inteiros positivos e distintos. Imprime o maior valor lido e a po
 
 Le o primeiro valor como maior inicial (posicao 1). Depois percorre os 99 restantes comparando: se o valor atual for maior, atualiza o maior e a posicao. No final imprime ambos.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identico nos tres. Le o primeiro valor, depois um loop de 2 a 100. Java e C++ usam `Scanner`/`cin` dentro do loop. Python usa `int(input())` a cada iteracao. Mesma comparacao e atualizacao.
+Identico nos tres. Le o primeiro valor, depois um loop de 2 a 100. Java e C++ usam `Scanner`/`cin` dentro do loop. Python usa `int(input())` a cada iteracao. Mesma comparacao e atualizacao. Em C, leio o primeiro como maior e comparo os 99 restantes.

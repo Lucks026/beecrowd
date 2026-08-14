@@ -12,6 +12,7 @@ Le valores inteiros repetidamente. Para cada valor diferente de 2002, imprime "S
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le valores inteiros repetidamente. Para cada valor diferente de 2002, imprime "S
 
 Loop que le a senha. Enquanto for diferente de 2002, imprime "Senha Invalida". Ao ler 2002, imprime "Acesso Permitido" e para.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java e C++ aproveitam a leitura na condicao do while. Python usa loop infinito com break ao acertar a senha. Mesma logica simples de comparacao.
+Java e C++ aproveitam a leitura na condicao do while. Python usa loop infinito com break ao acertar a senha. Mesma logica simples de comparacao. Em C aproveito a leitura na condicao do while, ate ler 2002.
