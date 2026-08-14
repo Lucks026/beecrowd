@@ -12,6 +12,7 @@ Le N e depois N pares de inteiros X e Y. Para cada par, imprime o resultado de X
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le N e depois N pares de inteiros X e Y. Para cada par, imprime o resultado de X
 
 Para cada caso, verifica se o divisor eh zero. Se sim, imprime a mensagem de erro. Caso contrario, faz a divisao em ponto flutuante (converte para double antes) e imprime com uma casa decimal.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Cuidado importante: a divisao entre dois inteiros em C++ e Java gera inteiro, por isso eh feito o cast para double. Java usa `Locale.US` no printf, C++ usa `printf("%.1f")`, Python ja faz divisao real com `/` e formata com `:.1f`.
+Cuidado importante: a divisao entre dois inteiros em C++ e Java gera inteiro, por isso eh feito o cast para double. Java usa `Locale.US` no printf, C++ usa `printf("%.1f")`, Python ja faz divisao real com `/` e formata com `:.1f`. Em C faco o cast pra double antes de dividir e printf com %.1f.
