@@ -12,6 +12,7 @@ Le um inteiro N e imprime 2*N linhas. Para cada i de 1 a N, a primeira linha mos
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le um inteiro N e imprime 2*N linhas. Para cada i de 1 a N, a primeira linha mos
 
 Loop de 1 a N. Em cada passo imprime duas linhas: uma com o quadrado e o cubo, outra com o quadrado e o cubo somados de 1. Usa tipos longos para o cubo nao estourar.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java usa `long`, C++ usa `long long` para evitar overflow do cubo. Python lida com inteiros grandes nativamente. A estrutura das duas linhas por iteracao eh identica.
+Java usa `long`, C++ usa `long long` para evitar overflow do cubo. Python lida com inteiros grandes nativamente. A estrutura das duas linhas por iteracao eh identica. Em C uso long long pro cubo nao estourar, com printf.
