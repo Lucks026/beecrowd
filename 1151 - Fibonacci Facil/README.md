@@ -12,6 +12,7 @@ Le um inteiro N e imprime os N primeiros numeros da sequencia de Fibonacci (0 1 
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le um inteiro N e imprime os N primeiros numeros da sequencia de Fibonacci (0 1 
 
 Comeca com a = 0 e b = 1. A cada passo imprime a e avanca a sequencia (proximo = a + b, depois a = b e b = proximo). Repete N vezes controlando o espaco entre os numeros.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java usa StringBuilder e `long`, C++ usa `long long` e controla o espaco, Python acumula em lista e usa `" ".join(...)`. Os valores cabem em tipo longo pois N < 46.
+Java usa StringBuilder e `long`, C++ usa `long long` e controla o espaco, Python acumula em lista e usa `" ".join(...)`. Os valores cabem em tipo longo pois N < 46. Em C uso long long e controlo o espaco entre os termos.
