@@ -12,6 +12,7 @@ Le um inteiro N e imprime todos os seus divisores positivos, um por linha.
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le um inteiro N e imprime todos os seus divisores positivos, um por linha.
 
 Percorre todos os valores de 1 ate N e, para cada um, verifica se divide N exatamente (resto zero). Se sim, eh um divisor e eh impresso.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identico nos tres. Um unico laco com a verificacao `n % i == 0`. Java usa `println`, C++ usa `cout`, Python usa `print`.
+Identico nos tres. Um unico laco com a verificacao `n % i == 0`. Java usa `println`, C++ usa `cout`, Python usa `print`. Em C, laco de 1 a N imprimindo os divisores com printf.
