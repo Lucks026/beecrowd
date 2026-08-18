@@ -12,6 +12,7 @@ Le um numero indeterminado de idades ate ler um valor negativo (que nao entra no
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le um numero indeterminado de idades ate ler um valor negativo (que nao entra no
 
 Acumula a soma das idades e conta quantas foram lidas, parando ao encontrar um valor negativo. No fim, divide a soma pela quantidade e imprime com duas casas decimais.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java usa `Locale.US` no printf, C++ usa `printf("%.2f")`, Python usa f-string com `:.2f`. O cast para double garante a divisao real antes de formatar.
+Java usa `Locale.US` no printf, C++ usa `printf("%.2f")`, Python usa f-string com `:.2f`. O cast para double garante a divisao real antes de formatar. Em C leio ate um valor negativo e imprimo a media com %.2f.

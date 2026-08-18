@@ -12,6 +12,7 @@ Le um inteiro N e imprime N linhas. Cada linha contem o numero i, o seu quadrado
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le um inteiro N e imprime N linhas. Cada linha contem o numero i, o seu quadrado
 
 Loop de 1 a N imprimindo em cada iteracao i, i*i e i*i*i na mesma linha separados por espaco.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Identico nos tres. Apenas tres valores calculados por linha. Java concatena String, C++ usa `cout` encadeado, Python usa f-string.
+Identico nos tres. Apenas tres valores calculados por linha. Java concatena String, C++ usa `cout` encadeado, Python usa f-string. Em C, printf com i, i*i e i*i*i por linha.
