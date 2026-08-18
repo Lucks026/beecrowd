@@ -12,6 +12,7 @@ Le codigos de combustivel (1-Alcool, 2-Gasolina, 3-Diesel, 4-Fim). Conta quantos
 
 | Linguagem | Status   |
 |-----------|----------|
+| C         | Accepted |
 | C++       | Accepted |
 | Java      | Accepted |
 | Python    | Accepted |
@@ -20,6 +21,6 @@ Le codigos de combustivel (1-Alcool, 2-Gasolina, 3-Diesel, 4-Fim). Conta quantos
 
 Tres contadores. Loop do/while que le o codigo e incrementa o contador correspondente, parando ao ler 4. Codigos invalidos sao simplesmente ignorados. No fim, imprime a mensagem e os totais de cada combustivel.
 
-## Java vs C++ vs Python
+## Java vs C vs C++ vs Python
 
-Java e C++ usam do/while (le ao menos uma vez). Python usa loop infinito com break ao ler 4. As labels de saida seguem o formato exato do enunciado.
+Java e C++ usam do/while (le ao menos uma vez). Python usa loop infinito com break ao ler 4. As labels de saida seguem o formato exato do enunciado. Em C, do/while ate ler 4, com contadores por tipo.
