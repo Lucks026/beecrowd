@@ -1,0 +1,20 @@
+par = []
+impar = []
+for _ in range(15):
+    v = int(input())
+    if v % 2 == 0:
+        par.append(v)
+        if len(par) == 5:
+            for i in range(5):
+                print(f"par[{i}] = {par[i]}")
+            par = []
+    else:
+        impar.append(v)
+        if len(impar) == 5:
+            for i in range(5):
+                print(f"impar[{i}] = {impar[i]}")
+            impar = []
+for i in range(len(impar)):
+    print(f"impar[{i}] = {impar[i]}")
+for i in range(len(par)):
+    print(f"par[{i}] = {par[i]}")

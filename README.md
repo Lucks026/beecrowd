@@ -102,5 +102,8 @@ Resolucoes dos exercicios do Beecrowd. Cada pasta tem a solucao em Java, C++ e P
 | 1175 | Troca em Vetor I | Iniciante |
 | 1176 | Fibonacci em Vetor | Iniciante |
 | 1177 | Preenchimento de Vetor II | Iniciante |
+| 1178 | Preenchimento de Vetor III | Iniciante |
+| 1179 | Preenchimento de Vetor IV | Iniciante |
+| 1180 | Menor e Posicao | Iniciante |
 
 Atualizo conforme vou avancando na plataforma.
